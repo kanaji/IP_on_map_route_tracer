@@ -1,0 +1,10 @@
+#!C:\Users\Kanaji\PycharmProjects\ip_search\venv\Scripts\python.exe
+#
+# Atlas Build Tool - Main Executable Wrapper
+#
+import sys
+
+sys.path.append('src')
+import src.atlas_main
+
+src.atlas_main.Run()
